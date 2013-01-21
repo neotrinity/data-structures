@@ -127,27 +127,27 @@ class Trie(object):
         return self.showWords(node,wordPrefix[:-1])
         
         
-if __name__ == '__main__':
+#if __name__ == '__main__':
     # Testing the Trie
     
-    t = Trie()
-    t.add('goose')
-    t.add('going')
-    t.add('porky')
-    t.add('poodle')
-    t.add('poker')
-    print " Trie is created with the following words "
-    print t.showWords()
-    
-    print "Go : %s" % t.find('go')
-    print "porky : %s" % t.find('porky')
-    print "poodle : %s" % t.find('poodle')
-    t.remove('poodle')
-    t.remove('poodle')
-    print "poodle : %s" % t.find('poodle')
-    print " The following elements are currently in the Trie"
-    print t.showWords()
+#    t = Trie()
+#    t.add('goose')
+#    t.add('going')
+#    t.add('porky')
+#    t.add('poodle')
+#    t.add('poker')
+#    print " Trie is created with the following words "
+#    print t.showWords()
+#    
+#    print "Go : %s" % t.find('go')
+#    print "porky : %s" % t.find('porky')
+#    print "poodle : %s" % t.find('poodle')
+#    t.remove('poodle')
+#    t.remove('poodle')
+#    print "poodle : %s" % t.find('poodle')
+#    print " The following elements are currently in the Trie"
+#    print t.showWords()
 
-    print " The autocomplete for prefix go are :"
-    print t.autocomplete('go')
+#    print " The autocomplete for prefix go are :"
+#    print t.autocomplete('go')
             
